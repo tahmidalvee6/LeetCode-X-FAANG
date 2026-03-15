@@ -42,22 +42,21 @@ We will retunr the indices of the two element that sum up to the target
 */
 
 
-
 class Solution {
 public:
-    vector<int> twoSum(vector<int>& nums, int target) {
+    vector<int> twoSum(vector<int>& numbers, int target) {
         // Step 1 : Input Given an array of integers and a target value
-        unordered_map<int, int> hashTable;
+        unordered_map<int, int> valueIndexMap;
 
         // What DSA to use : Hash Table
-        for(int i = 0; i < nums.size(); i++) {
-            int complement = target - nums[i];
+        for(int index = 0; index < numbers.size(); index++) {
+            int requiredValue = target - numbers[index];
 
-            if(hashTable.count(complement)) {
-                return{hashTable[complement], i};
+            if(valueIndexMap.count(requiredValue)) {
+                return{valueIndexMap[requiredValue], index};
             }
             else {
-                hashTable[nums[i]] = i;
+                valueIndexMap[numbers[index]] = index;
             }
         }
 
