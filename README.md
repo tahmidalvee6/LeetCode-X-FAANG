@@ -36,7 +36,7 @@
 | 🗂️ Topics Covered | 28 |
 | 🎯 Target Companies | Google, Meta, Amazon, Microsoft, Apple, Netflix |
 | 📊 Difficulty Range | Basic → Advanced |
-| 🔄 Last Updated | 2025 |
+| 🔄 Last Updated | 2026 |
 
 ---
 
