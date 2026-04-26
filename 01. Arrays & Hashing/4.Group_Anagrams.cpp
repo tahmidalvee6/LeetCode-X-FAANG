@@ -50,7 +50,7 @@ public:
             result.push_back(pair.second);
         }
 
-        // Step 4: Return all anagram groups
+        // Step 4: Return anagram groups
         return result;
     }
 };
